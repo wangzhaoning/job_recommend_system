@@ -1,0 +1,5 @@
+New Collaborative Filtering Rating prediction Average RMSE (friends = 0): 1.59811019703
+New Collaborative Filtering Rating prediction Average RMSE (friends = 25): 1.63793059408
+New Collaborative Filtering Rating prediction Average RMSE (friends = 300): 1.66736715841
+New Collaborative Filtering Rating prediction Average RMSE (friends = 500): 1.66736715841
+New Collaborative Filtering Rating prediction Average RMSE (friends = all): 1.66736715841

@@ -1,0 +1,14 @@
+Random prediction Average RMSE: 157142695.129
+User Mean Rating prediction Average RMSE: 157142696.501
+Movie Mean Rating prediction Average RMSE: 157142696.538
+User-Movie Mean Rating prediction Average RMSE: 157142696.435
+Collaborative Filtering Rating prediction Average RMSE (friends = 0): 157142696.501
+CollaborativeFiltering-Movie Mean Rating prediction Average RMSE (friends = 0): 157142696.435
+Collaborative Filtering Rating prediction Average RMSE (friends = 25): 157142696.501
+CollaborativeFiltering-Movie Mean Rating prediction Average RMSE (friends = 25): 157142696.435
+Collaborative Filtering Rating prediction Average RMSE (friends = 300): 157142696.501
+CollaborativeFiltering-Movie Mean Rating prediction Average RMSE (friends = 300): 157142696.435
+Collaborative Filtering Rating prediction Average RMSE (friends = 500): 157142696.501
+CollaborativeFiltering-Movie Mean Rating prediction Average RMSE (friends = 500): 157142696.435
+Collaborative Filtering Rating prediction Average RMSE (friends = numUsers): 157142696.501
+CollaborativeFiltering-Movie Mean Rating prediction Average RMSE (friends = numUsers): 157142696.435
