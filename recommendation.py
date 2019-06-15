@@ -191,7 +191,7 @@ def randomPrediction(u, m):
 # Given a user u and a position m, simply return the mean rating that user u has given to positions.
 # Here userRatings is a list with one element per user, each element being a dictionary
 # containing all position-rating pairs associated with that user.
-#给一个用户u和一个电影m，简单的返回用户给职位的评分
+#给一个用户u和一个职位m，简单的返回用户给职位的评分
 def meanUserRatingPrediction(u, m, userRatings):
     print("meanUserRatingPrediction")
     rating = meanUserRating(u, userRatings)
@@ -201,7 +201,7 @@ def meanUserRatingPrediction(u, m, userRatings):
 # Given a user u and a position m, simply return the mean rating that position m has received.
 # Here positionRatings is a list with one element per position, each element being a dictionary
 # containing all user-rating pairs associated with that user.
-#返回电影m接受的平均等级
+#返回职位m接受的平均等级
 def meanPositionRatingPrediction(u, m, positionRatings):
     print("meanPositionRatingPrediction")
     rating = meanPositionRating(m, positionRatings)
@@ -210,7 +210,7 @@ def meanPositionRatingPrediction(u, m, positionRatings):
 
 # Given a user u and a position m, simply return the average of the mean rating
 # that u gives and mean rating that m receives.
-#给定用户U和电影M，简单地返回u给出的平均评级的平均值和M接收的平均评级。
+#给定用户U和职位M，简单地返回u给出的平均评级的平均值和M接收的平均评级。
 def meanRatingPrediction(u, m, userRatings, positionRatings):
     print("meanRatingPrediction")
     rating_1 = meanUserRating(u, userRatings)
@@ -273,7 +273,7 @@ def similarity(u, v, userRatings):
         return sim
 
     # Compute the mean ratings that user u or user v has given to positions.
-    #计算用户U或用户V给电影的平均收视率。
+    #计算用户U或用户V给职位的平均收视率。
     mean_rating_1 = meanUserRating(u, userRatings)
     mean_rating_2 = meanUserRating(v, userRatings)
 
